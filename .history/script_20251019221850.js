@@ -1,0 +1,13 @@
+const form = document.getElementById("registration-form");
+const feedbackDiv = document.getElementById("form-feedback");
+
+form.addEventListener('submit' , function(event) {
+    event.preventDefault();
+
+    const usenameInput = document.getElementById('username');
+    const emailInput = document.getElementById('email');
+    const password = document.getElementById('password');
+
+    var isValid = true;
+    messages =
+})
